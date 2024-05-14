@@ -325,8 +325,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\diego\Documents\Computer Vision\sandbox-cv\src\mostrar_imagen.cpp" />
-    <ClInclude Include="C:\Users\diego\Documents\Computer Vision\sandbox-cv\include\include.hpp" />
+    <ClCompile Include="C:\Users\diego\Documents\Computer Vision\sandbox-cv\src\histogram.cpp" />
+    <ClInclude Include="C:\Users\diego\Documents\Computer Vision\sandbox-cv\include\histogram.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\diego\Documents\Computer Vision\sandbox-cv\build\ZERO_CHECK.vcxproj">

@@ -2,11 +2,13 @@ cmake_minimum_required(VERSION 2.8)
 PROJECT (sandboxCV)
 find_package(OpenCV REQUIRED )
 set( NAME_SRC
-    "src/mostrar_imagen.cpp"    
+    
+    "src/histogram.cpp"
 )
 
 set( NAME_HEADERS
-    include/include.hpp
+    
+    "include/histogram.hpp"
 )
 
 INCLUDE_DIRECTORIES( ${CMAKE_CURRENT_SOURCE_DIR}/include )
