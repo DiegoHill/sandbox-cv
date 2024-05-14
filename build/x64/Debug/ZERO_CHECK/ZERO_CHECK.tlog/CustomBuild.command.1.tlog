@@ -1,0 +1,10 @@
+^C:\USERS\DIEGO\DOCUMENTS\COMPUTER VISION\SANDBOX-CV\BUILD\CMAKEFILES\8ECB553C7456ED61846B6F25FA9BF94E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/diego/Documents/Computer Vision/sandbox-cv" "-BC:/Users/diego/Documents/Computer Vision/sandbox-cv/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/diego/Documents/Computer Vision/sandbox-cv/build/sandboxCV.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

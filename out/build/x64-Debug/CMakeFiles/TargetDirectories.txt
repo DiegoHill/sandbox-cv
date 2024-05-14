@@ -1,0 +1,3 @@
+C:/Users/diego/Documents/Computer Vision/sandbox-cv/out/build/x64-Debug/CMakeFiles/sandboxCV.dir
+C:/Users/diego/Documents/Computer Vision/sandbox-cv/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/diego/Documents/Computer Vision/sandbox-cv/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
